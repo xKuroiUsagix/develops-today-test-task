@@ -15,9 +15,10 @@ From the agency perspective, they regularly hire new spy cats and so should be a
 Python version: 3.13.0
 
 1. Create virtual environment with `python -m venv venv` command
-2. Run command `pip install -r requirements.txt`
-3. Run command `python manage.py migrate` to apply current database migrations
-4. Run command `python manage.py runserver` to start development server
+2. Activate created environment
+3. Run command `pip install -r requirements.txt`
+4. Run command `python manage.py migrate` to apply current database migrations
+5. Run command `python manage.py runserver` to start development server
 
 At this point everything should be working and you will have acces to the API.
 
